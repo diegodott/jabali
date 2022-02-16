@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JABALÍ - CONTACTO</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<!--header nav bar-->
+<header class="header">
+    <nav class="nav">
+        <a href="index.html"><img src="img/logofooter.jpg" alt="logo"></a>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="Integrantes.html">Integrantes</a></li>
+                <li><a href="Historia.html">Historia</a></li>
+                <li><a href="Shows.html">Shows</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+
+            </ul>
+        </div>
+    </nav>
+</header>
+<!--fin header nav bar-->
+<!--seccion main contacto-->
+<main>
+    <section div class="section">
+
+        <h1>CONTACTO JABALÍ</h1>
+        <form>
+            <div class="formulario">
+                <input type="radio" name="sexo">
+                <label for="sexo">Hombre</label>
+                <input type="radio" name="sexo">
+                <label for="sexo">Mujer</label>
+                <input type="radio" name="sexo">
+                <label for="sexo">No binario</label>
+                <H3>¿Desea recibir newsletter de la banda?</H3>
+                <selecT> name="¿Desea recibir newsletter de la banda?">
+                    <option>SI</option>
+                    <option>NO</option>
+                </selecT>
+
+
+
+                <h3>¿Cómo conociste la banda?</h3>
+
+                <input type="checkbox" name="COMO">
+                <label for="html">Internet</label>
+
+                <input type="checkbox" name="como">
+                <label for="amigo">Un Amigo</label>
+                <input type="checkbox" name="como">
+                <label for="Redes">Redes Sociales</label>
+                <input type="checkbox" name="como">
+                <label for="Youtube">Youtube</label>
+
+                <br>
+
+
+
+                <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+                    <label for="">nombre:</label>
+                    <input type="text" name="nombre" placeholder="tu nombre aquí" required>
+
+                    <label for="">apellido:</label>
+                    <input type="text" name="Tu apellido aquí" placeholder="tu apellido aquí" required>
+
+                    <label for="">teléfono:</label>
+                    <input type="number" required>
+
+                    <label for="">email</label>
+                    <input type="email" required>
+
+                    <textarea name="comentarios" id="" cols="10" rows="10"
+                        placeholder="escribe tu comentario"></textarea>
+
+                    <input type="submit" value="Enviar">
+
+                    <input type="reset" value="borrar">
+            </div>
+        </form>
+    </section>
+</main>
+<!--fin seccion main contacto-->
+<footer>
+    <div id="footer"></div>
+
+
+    <h3>Nuestras redes:</h3>
+    <ul>
+
+
+        <li><a href="https://www.instagram.com/jabali.hb" target="_blank"></li>
+        <h4>Instagram</h4>
+        <li><a href="https://www.facebook.com/jabali.hb.sa" target="_blank"></li>
+        <h4>Facebook</h4>
+
+    </ul>
+</footer>
+</body>
+
+</html>

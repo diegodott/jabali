@@ -1,0 +1,813 @@
+nav li {
+  display: inline-block;
+  width: 10%;
+  padding: 50px 40px;
+  background-color: rgb(235, 211, 0);
+  border: 1px solid rgb(235, 211, 0);
+  text-align: center;
+  outline-color: rgb(235, 211, 0);
+}
+
+header {
+  background-color: rgb(235, 211, 0);
+  font-size: 25px;
+  display: inline-flex;
+}
+
+nav {
+  background-color: rgb(red, rgb(235, 211, 0), blue);
+  font-weight: bolder;
+  font-size: 30px;
+  font-display: inline;
+  background-color: transparent;
+  display: inline-block;
+  text-align: center;
+}
+.lista {
+  display: inline-block;
+  justify-content: center;
+  font-display: inline;
+  font-size: 30px;
+}
+body {
+  border-color: rgb(235, 211, 0);
+  background-image: url(img/logo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  display: auto;
+}
+.video {
+  margin-bottom: 100px;
+  padding-left: 800px;
+  background-color: transparent;
+}
+.titulo video {
+  color: rgb(235, 211, 0);
+  padding-left: 800px;
+  background-color: transparent;
+}
+p {
+  background-image: none;
+  background-color: transparent;
+  color: rgb(235, 211, 0);
+  font-size: 35px;
+}
+h1 {
+  color: rgb(235, 211, 0);
+  font-size: 40px;
+  font-style: italic;
+  background-color: transparent;
+}
+h2 {
+  color: rgb(235, 211, 0);
+  background-color: transparent;
+  font-size: 40px;
+}
+.formulario {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.shows {
+  background-color: black;
+  display: grid;
+}
+.titular {
+  size-adjust: 20px;
+}
+h3 {
+  color: rgb(235, 211, 0);
+  background-color: transparent;
+}
+
+.disco {
+  color: rgb(235, 211, 0);
+  background-color: transparent;
+}
+.ints {
+  display: block;
+  list-style-type: none;
+  color: rgb(235, 211, 0);
+}
+.fechas {
+  color: rgb(235, 211, 0);
+}
+section {
+  color: rgb(235, 211, 0);
+  background-color: transparent;
+}
+.historia {
+  color: rgb(235, 211, 0);
+  background-color: black;
+  font-size: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "footer";
+}
+
+.header {
+  grid-area: header;
+  background: black;
+}
+.nav {
+  grid-area: nav;
+  background: rgb(235, 211, 0);
+}
+.footer {
+  grid-area: footer;
+  background-color: transparent;
+}
+.container {
+  width: 100%;
+  max-width: 1600px;
+  height: px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: auto;
+  background-color: transparent;
+}
+.container .card {
+  width: 330px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px rgb(235, 211, 0);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  background-color: black;
+}
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 25px rgb(235, 211, 0);
+}
+.container .card img {
+  width: 330px;
+  height: 220px;
+}
+.container .card h2 {
+  font-weight: 100px;
+}
+.container .card p {
+  padding: 0 1rem;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.box {
+  position: relative;
+  width: 1200px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(235, 211, 0);
+  border: 20px solid black;
+  border-top: 0px;
+  border-bottom: 0px;
+  background-color: black;
+  font-size: 100px;
+}
+.box:hover {
+  border: 20px solid black;
+  background-color: rgb(235, 211, 0);
+  -webkit-transition: background-color 2s linear;
+  -ms-transition: background-color 2s linear;
+  transition: background-color 2s linear;
+}
+.box:hover .item {
+  color: black;
+}
+span {
+  width: 0px;
+  height: 2px;
+  background: deepskyblue;
+  display: block;
+  transition: all 2s ease-in-out;
+}
+
+@media (max-width: 375px) {
+  nav li {
+    display: inline-block;
+    width: 10%;
+    padding: 50px 40px;
+    background-color: rgb(235, 211, 0);
+    border: 1px solid rgb(235, 211, 0);
+    text-align: center;
+    outline-color: rgb(235, 211, 0);
+  }
+
+  header {
+    background-color: rgb(235, 211, 0);
+    font-size: 25px;
+    display: inline-flex;
+  }
+
+  nav {
+    background-color: rgb(red, rgb(235, 211, 0), blue);
+    font-weight: bolder;
+    font-size: 30px;
+    font-display: inline;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+  }
+  .lista {
+    display: inline-block;
+    justify-content: center;
+    font-display: inline;
+    font-size: 30px;
+  }
+  body {
+    border-color: rgb(235, 211, 0);
+    background-image: url(img/logo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    display: auto;
+  }
+  .video {
+    margin-bottom: 100px;
+    padding-left: 800px;
+    background-color: transparent;
+  }
+  .titulo video {
+    color: rgb(235, 211, 0);
+    padding-left: 800px;
+    background-color: transparent;
+  }
+  p {
+    background-image: none;
+    background-color: transparent;
+    color: rgb(235, 211, 0);
+    font-size: 35px;
+  }
+  h1 {
+    color: rgb(235, 211, 0);
+    font-size: 40px;
+    font-style: italic;
+    background-color: transparent;
+  }
+  h2 {
+    color: rgb(235, 211, 0);
+    background-color: transparent;
+    font-size: 40px;
+  }
+  .formulario {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  .shows {
+    background-color: black;
+    display: grid;
+  }
+  .titular {
+    size-adjust: 20px;
+  }
+  h3 {
+    color: rgb(235, 211, 0);
+    background-color: transparent;
+  }
+
+  .disco {
+    color: rgb(235, 211, 0);
+    background-color: transparent;
+  }
+  .ints {
+    display: block;
+    list-style-type: none;
+    color: rgb(235, 211, 0);
+  }
+  .fechas {
+    color: rgb(235, 211, 0);
+  }
+  section {
+    color: rgb(235, 211, 0);
+    background-color: transparent;
+  }
+  .historia {
+    color: rgb(235, 211, 0);
+    background-color: black;
+    font-size: 30px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "nav"
+      "footer";
+  }
+
+  .header {
+    grid-area: header;
+    background: black;
+  }
+  .nav {
+    grid-area: nav;
+    background: rgb(235, 211, 0);
+  }
+  .footer {
+    grid-area: footer;
+    background-color: transparent;
+  }
+  .container {
+    width: 100%;
+    max-width: 1600px;
+    height: px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+    background-color: transparent;
+  }
+  .container .card {
+    width: 330px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgb(235, 211, 0);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: black;
+  }
+  .container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 25px rgb(235, 211, 0);
+  }
+  .container .card img {
+    width: 330px;
+    height: 220px;
+  }
+  .container .card h2 {
+    font-weight: 100px;
+  }
+  .container .card p {
+    padding: 0 1rem;
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .box {
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 211, 0);
+    border: 20px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    background-color: black;
+    font-size: 100px;
+  }
+  .box:hover {
+    border: 20px solid black;
+    background-color: rgb(235, 211, 0);
+    -webkit-transition: background-color 2s linear;
+    -ms-transition: background-color 2s linear;
+    transition: background-color 2s linear;
+  }
+  .box:hover .item {
+    color: black;
+  }
+  span {
+    width: 0px;
+    height: 2px;
+    background: deepskyblue;
+    display: block;
+    transition: all 2s ease-in-out;
+  }
+}
+
+@media (min-width: 768px) {
+  nav li {
+    display: inline-block;
+    width: 10%;
+    padding: 50px 40px;
+    background-color: rgb(235, 211, 0);
+    border: 1px solid rgb(235, 211, 0);
+    text-align: center;
+    outline-color: rgb(235, 211, 0);
+  }
+
+  header {
+    background-color: rgb(235, 211, 0);
+    font-size: 25px;
+    display: inline-flex;
+  }
+
+  nav {
+    background-color: rgb(red, rgb(235, 211, 0), blue);
+    font-weight: bolder;
+    font-size: 30px;
+    font-display: inline;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+  }
+  .lista {
+    display: inline-block;
+    justify-content: center;
+    font-display: inline;
+    font-size: 30px;
+  }
+  body {
+    border-color: rgb(235, 211, 0);
+    background-image: url(img/logo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    display: auto;
+  }
+  .video {
+    margin-bottom: 100px;
+    padding-left: 800px;
+    background-color: transparent;
+  }
+  .titulo video {
+    color: rgb(235, 211, 0);
+    padding-left: 800px;
+    background-color: transparent;
+  }
+  p {
+    background-image: none;
+    background-color: transparent;
+    color: rgb(235, 211, 0);
+    font-size: 35px;
+  }
+  h1 {
+    color: rgb(235, 211, 0);
+    font-size: 40px;
+    font-style: italic;
+    background-color: transparent;
+  }
+  h2 {
+    color: rgb(235, 211, 0);
+    background-color: transparent;
+    font-size: 40px;
+  }
+  .formulario {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  .shows {
+    background-color: black;
+    display: grid;
+  }
+  .titular {
+    size-adjust: 20px;
+  }
+  h3 {
+    color: rgb(235, 211, 0);
+    background-color: transparent;
+  }
+
+  .disco {
+    color: rgb(235, 211, 0);
+    background-color: transparent;
+  }
+  .ints {
+    display: block;
+    list-style-type: none;
+    color: rgb(235, 211, 0);
+  }
+  .fechas {
+    color: rgb(235, 211, 0);
+  }
+  section {
+    color: rgb(235, 211, 0);
+    background-color: transparent;
+  }
+  .historia {
+    color: rgb(235, 211, 0);
+    background-color: black;
+    font-size: 30px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "nav"
+      "footer";
+  }
+
+  .header {
+    grid-area: header;
+    background: black;
+  }
+  .nav {
+    grid-area: nav;
+    background: rgb(235, 211, 0);
+  }
+  .footer {
+    grid-area: footer;
+    background-color: transparent;
+  }
+  .container {
+    width: 100%;
+    max-width: 1600px;
+    height: px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+    background-color: transparent;
+  }
+  .container .card {
+    width: 330px;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgb(235, 211, 0);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: black;
+  }
+  .container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 25px rgb(235, 211, 0);
+  }
+  .container .card img {
+    width: 120px;
+    height: 100px;
+  }
+  .container .card h2 {
+    font-size: 20px;
+  }
+  .container .card p {
+    padding: 0 1rem;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .box {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 211, 0);
+    border: 20px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    background-color: black;
+    font-size: 100px;
+  }
+  .box:hover {
+    border: 20px solid black;
+    background-color: rgb(235, 211, 0);
+    -webkit-transition: background-color 2s linear;
+    -ms-transition: background-color 2s linear;
+    transition: background-color 2s linear;
+  }
+  .box:hover .item {
+    color: black;
+  }
+  span {
+    width: 0px;
+    height: 2px;
+    background: deepskyblue;
+    display: block;
+    transition: all 2s ease-in-out;
+  }
+}
+
+@media (min-width: 993px) {
+  nav li {
+    display: inline-block;
+    width: 10%;
+    padding: 50px 40px;
+    background-color: rgb(235, 211, 0);
+    border: 1px solid rgb(235, 211, 0);
+    text-align: center;
+    outline-color: rgb(235, 211, 0);
+  }
+
+  header {
+    background-color: rgb(235, 211, 0);
+    font-size: 25px;
+    display: inline-flex;
+  }
+
+  nav {
+    background-color: rgb(red, rgb(235, 211, 0), blue);
+    font-weight: bolder;
+    font-size: 30px;
+    font-display: inline;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+  }
+  .lista {
+    display: inline-block;
+    justify-content: center;
+    font-display: inline;
+    font-size: 30px;
+  }
+  body {
+    border-color: rgb(235, 211, 0);
+    background-image: url(img/logo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    display: auto;
+  }
+  .video {
+    margin-bottom: 100px;
+    padding-left: 800px;
+    background-color: transparent;
+  }
+  .titulo video {
+    color: rgb(235, 211, 0);
+    padding-left: 800px;
+    background-color: transparent;
+  }
+  p {
+    background-image: none;
+    background-color: transparent;
+    color: rgb(235, 211, 0);
+    font-size: 35px;
+  }
+  h1 {
+    color: rgb(235, 211, 0);
+    font-size: 40px;
+    font-style: italic;
+    background-color: transparent;
+  }
+  h2 {
+    color: rgb(235, 211, 0);
+    background-color: transparent;
+    font-size: 40px;
+  }
+  .formulario {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  .shows {
+    background-color: black;
+    display: grid;
+  }
+  .titular {
+    size-adjust: 20px;
+  }
+  h3 {
+    color: rgb(235, 211, 0);
+    background-color: transparent;
+  }
+
+  .disco {
+    color: rgb(235, 211, 0);
+    background-color: transparent;
+  }
+  .ints {
+    display: block;
+    list-style-type: none;
+    color: rgb(235, 211, 0);
+  }
+  .fechas {
+    color: rgb(235, 211, 0);
+  }
+  section {
+    color: rgb(235, 211, 0);
+    background-color: transparent;
+  }
+  .historia {
+    color: rgb(235, 211, 0);
+    background-color: black;
+    font-size: 30px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "nav"
+      "footer";
+  }
+
+  .header {
+    grid-area: header;
+    background: black;
+  }
+  .nav {
+    grid-area: nav;
+    background: rgb(235, 211, 0);
+  }
+  .footer {
+    grid-area: footer;
+    background-color: transparent;
+  }
+  .container {
+    width: 100%;
+    max-width: 1600px;
+    height: px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+    background-color: transparent;
+  }
+  .container .card {
+    width: 330px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgb(235, 211, 0);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: black;
+  }
+  .container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 25px rgb(235, 211, 0);
+  }
+  .container .card img {
+    width: 330px;
+    height: 220px;
+  }
+  .container .card h2 {
+    font-weight: 100px;
+  }
+  .container .card p {
+    padding: 0 1rem;
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .box {
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 211, 0);
+    border: 20px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    background-color: black;
+    font-size: 100px;
+  }
+  .box:hover {
+    border: 20px solid black;
+    background-color: rgb(235, 211, 0);
+    -webkit-transition: background-color 2s linear;
+    -ms-transition: background-color 2s linear;
+    transition: background-color 2s linear;
+  }
+  .box:hover .item {
+    color: black;
+  }
+  span {
+    width: 0px;
+    height: 2px;
+    background: deepskyblue;
+    display: block;
+    transition: all 2s ease-in-out;
+  }
+}
