@@ -1,7 +1,7 @@
 nav li {
   display: inline-block;
-  width: 10%;
-  padding: 50px 40px;
+  width: 50%;
+  padding: 80px 80px;
   background-color: rgb(235, 211, 0);
   border: 1px solid rgb(235, 211, 0);
   text-align: center;
@@ -10,24 +10,26 @@ nav li {
 
 header {
   background-color: rgb(235, 211, 0);
-  font-size: 25px;
+  font-size: 10px;
   display: inline-flex;
 }
 
 nav {
   background-color: rgb(red, rgb(235, 211, 0), blue);
   font-weight: bolder;
-  font-size: 30px;
-  font-display: inline;
+  font-size: 10px;
   background-color: transparent;
-  display: inline-block;
+  font-display: inline-block;
+  display: inline;
   text-align: center;
+  color: black;
+  outline-color: rgb(235, 211, 0);
 }
 .lista {
   display: inline-block;
   justify-content: center;
-  font-display: inline;
-  font-size: 30px;
+  font-display: inline-block;
+  font-size: 10px;
 }
 body {
   border-color: rgb(235, 211, 0);
