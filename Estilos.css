@@ -42,8 +42,8 @@ body {
   background-color: transparent;
 }
 .imagenhistoria {
-  display: inline-flex;
-  justify-content: center;
+  margin: auto;
+  display: block;
 }
 .titulo video {
   color: rgb(235, 211, 0);
@@ -57,6 +57,7 @@ p {
   border-color: black;
   font-size: 20px;
 }
+
 h1 {
   color: rgb(235, 211, 0);
   font-size: 40px;
@@ -84,10 +85,7 @@ h2 {
 
   background-size: auto;
 }
-.shows {
-  background-color: black;
-  display: grid;
-}
+
 .titular {
   size-adjust: 20px;
 }
@@ -117,9 +115,7 @@ h4 {
   list-style-type: none;
   color: rgb(235, 211, 0);
 }
-.fechas {
-  color: rgb(235, 211, 0);
-}
+
 section {
   color: rgb(235, 211, 0);
   background-color: transparent;
@@ -148,6 +144,150 @@ section {
 }
 .footer {
   background-color: rgb(235, 211, 0);
+}
+
+body {
+  background: #f9f9f9;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+
+.contenedor {
+  margin-top: 200px;
+}
+
+.title {
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(95, 100, 18, 0.712);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+}
+
+img {
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.4s ease-in-out 0.2s;
+  -moz-transition: all 0.4s ease-in-out 0.2s;
+  transition: all 0.4s ease-in-out 0.2s;
+}
+
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3 {
+  color: black;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.fadeIn-bottom {
+  top: 100%;
+}
+
+/*form contacto*/
+
+.contact {
+  padding: 4%;
+  height: 700px;
+}
+.col-md-3 {
+  background-image: url(img/live2.jpg);
+  padding: 2%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info {
+  margin-top: 10%;
+}
+.contact-info img {
+  margin-bottom: 15%;
+}
+.contact-info h2 {
+  margin-bottom: 10%;
+  font-size: 17px;
+  font-weight: 700;
+}
+.contact-info h4 {
+  font-weight: 700;
+  color: rgb(235, 211, 0);
+}
+.col-md-9 {
+  background: black;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+}
+.contact-form button {
+  background: rgb(235, 211, 0);
+  color: black;
+  font-weight: 700;
+  width: 40%;
+}
+.contact-form button:focus {
+  box-shadow: none;
+}
+
+.contactito {
+  text-align: center;
 }
 
 .container {
