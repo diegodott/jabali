@@ -19,19 +19,27 @@
 
 <body>
 
-
     <!--header nav bar-->
     <header class="header">
-        <nav class="nav">
-            <a href="index.html"><img src="img/logofooter.jpg" alt="logo"></a>
-            <ul>
-                <li><a class="lista" href="index.html">Principal</a></li>
-                <li><a class="lista" href="Integrantes.html">Integrantes</a></li>
-                <li><a class="lista" href="Historia.html">Historia</a></li>
-                <li><a class="lista" href="Shows.html">Shows</a></li>
-                <li><a class="lista" href="Contacto.html">Contacto</a></li>
-
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/logofooter.jpg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Principal</a>
+                            <a class="nav-link active" aria-current="page" href="Integrantes.html">Integrantes</a>
+                            <a class="nav-link active" aria-current="page" href="Historia.html">Historia</a>
+                            <a class="nav-link active" aria-current="page" href="Shows.html">Shows</a>
+                            <a class="nav-link active" aria-current="page" href="Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -40,40 +48,78 @@
     <main>
         <section div class="section">
 
-            <h1>JABALÍ</h1>
+            <h1>JABALI</h1>
 
-            <h2>Primera embestida</h2>
+            <p>Web Oficial de la banda oriunda de Salto, Bs. As.</p>
+            <p>LETS ROCK!</p>
 
-            <a><img class="disco" src="img/primera embestida.jpg" alt="Primera embestida">
-                <p>Primer disco de la banda lanzado en 2021.</p>
-            </a>
 
-            <h3 class="titulo video">JABALÌ - Maestro del mal</h3>
-            <iframe width="600" height="400" class="video" src="https://www.youtube.com/embed/qNiNo7BkhWw"
-                alt="Maestro del mal" title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <!-- Carousel -->
+            <div class="carro">
+                <div id="carrito" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- indicadores de dirección -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carrojabali" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#carrojabali" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carrojabali" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carrojabali" data-bs-slide-to="3"></button>
+
+                    </div>
+
+                    <!-- slide -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/precaucion.jpg" alt="Precaución" class="d-block w-100"> Cartel en ruta hacia
+                            San Luis,
+                            andaban cerca los Jabalí al parecer...
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/cordoba.jpg" alt="Cordoba" class="d-block w-100"> Altas cumbres, Córdoba,
+                            emprendiendo la vuelta de la
+                            gira por Salto, La Rioja capital y Chepes. Parada obligatoria para retratar esa vista.
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/lacuadra.jpg" alt="La cuadra" class="d-block w-100"> Fecha enero 2021, La
+                            Quadra Bar (del legendario Walter Meza de Horcas), tuvimos el honor de presentarnos por
+                            primera vez ahí. Un inicio a todo motor y con la compañía de "Soster", gran banda amiga.
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/video1.jpg" alt="La cuadra" class="d-block w-100"> Grabación del video
+                            "Maestro del Mal" en la Sociedad Italiana "Humberto Primo" de Salto. Hermoso lugar para
+                            plasmar la imagen de banda en lo que sería el primer videoclip de la banda.
+                        </div>
+
+                        <!-- izq der indicadores flechas -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carrito"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carrito"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
 
 
         </section>
     </main>
     <!--fin seccion main-->
     <!--footer-->
-    <footer>
-        <div id="footer">
+    <footer class="footer">
+        <div class="footer__addr">
+            <h1 class="footer__logo">JABALI</h1>
 
-
-            <h3>Nuestras redes</h3>
-            <ul>
-
-
-                <li><a href="https://www.instagram.com/jabali.hb" target="blank"></li>
-                <h4>Instagram</h4>
-                <li><a href="https://www.facebook.com/jabali.hb.sa" target="blank"></li>
-                <h4>Facebook</h4>
-
-            </ul>
+            <h4>Contacto</h4>
+            <a class="footer__btn" href="mailto:jabaliband@gmail.com">E-Mail</a>
+            <h4>Nuestras Redes</h4>
+            <a class="footer__btn" href="https://www.instagram.com/jabali.hb">Instagram</a>
+            <a class="footer__btn" href="https://www.facebook.com/jabali.hb.sa">Facebook</a>
         </div>
+
+        <h4>Jabalí 2022. Todos los derechos reservados.</h4>
     </footer>
     <!--fin footer-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"

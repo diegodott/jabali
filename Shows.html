@@ -18,17 +18,24 @@
 </head>
 <!--header nav bar-->
 <header class="header">
-    <nav class="nav">
-        <a href="index.html"><img src="img/logofooter.jpg" alt="logo"></a>
-        <div id="nav">
-            <ul>
-                <li><a href="index.html">Principal</a></li>
-                <li><a href="Integrantes.html">Integrantes</a></li>
-                <li><a href="Historia.html">Historia</a></li>
-                <li><a href="Shows.html">Shows</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logofooter.jpg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Principal</a>
+                        <a class="nav-link active" aria-current="page" href="Integrantes.html">Integrantes</a>
+                        <a class="nav-link active" aria-current="page" href="Historia.html">Historia</a>
+                        <a class="nav-link active" aria-current="page" href="Shows.html">Shows</a>
+                        <a class="nav-link active" aria-current="page" href="Contacto.html">Contacto</a>
+                    </li>
+            </div>
         </div>
     </nav>
 </header>
@@ -39,41 +46,82 @@
 
     <section div class="section">
 
-        <h1>Próximas Fechas</h1>
+        <h1>Proximas Fechas</h1>
         <div class="shows">
-            <table class="fechas" border="2" cellspacing="12" cellpadding="15">
-                <tr>
-                    <th>FECHA</th>
-                    <th>LOCALIDAD</th>
-                    <th>LUGAR</th>
-                </tr>
-                <tr>
-                    <td>25/01/2022</td>
-                    <td>SALTO</td>
-                    <td>MUSIC ROOM</td>
-                </tr>
-                <td>15/02/2022</td>
-                <td>SAN JUSTO</td>
-                <td>CIRCUS BAR</td>
-            </table>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Lugar</th>
+                            <th>Ubicación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Clark</td>
+                            <td>Kent</td>
+                            <td>clarkkent@mail.com</td>
+                            <td>Lorem ipsum dolor sit amet...</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Peter</td>
+                            <td>Parker</td>
+                            <td>peterparker@mail.com</td>
+                            <td>Integer pulvinar leo id risus...</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>John</td>
+                            <td>Carter</td>
+                            <td>johncarter@mail.com</td>
+                            <td>Vestibulum consectetur scelerisque...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
+        <img class="fecha" src="img/fecha0.jpg" alt="fecha1">
+        <img class="fecha" src="img/fecha1.jpg" alt="fecha2">
+        <img class="fecha" src="img/fecha2.jpg" alt="fecha3">
         <h3>Pròximamente mas fechas...</h3>
+
+        <div class="container">
+            <span id="top"></span>
+            <div class="box">
+                <a LA BANDA EN ACCIÓN></a> <iframe width="1000" height="800"
+                    src="https://www.youtube.com/embed/qkGxcME6suY?start=20" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <span id="bottom"></span>
+        </div>
+
+
+        </div>
+
     </section>
 </main>
 <!--fin seccion main fechas-->
 
 <!--footer-->
-<footer>
-    <div id="footer">
+<footer class="footer">
+    <div class="footer__addr">
+        <h1 class="footer__logo">JABALI</h1>
 
-        <h3>Nuestras redes:</h3>
-        <ul>
+        <h4>Contacto</h4>
+        <a class="footer__btn" href="mailto:jabaliband@gmail.com">E-Mail</a>
+        <h4>Nuestras Redes</h4>
+        <a class="footer__btn" href="https://www.instagram.com/jabali.hb">Instagram</a>
+        <a class="footer__btn" href="https://www.facebook.com/jabali.hb.sa">Facebook</a>
+    </div>
 
-            <li><a href="https://www.instagram.com/jabali.hb" target="_blank"></li>
-            <h4>Instagram</h4>
-            <li><a href="https://www.facebook.com/jabali.hb.sa" target="_blank"></li>
-            <h4>Facebook</h4>
-        </ul>
+
+    <h4>Jabalí 2022. Todos los derechos reservados.</h4>
 </footer>
 <!--fin footer-->
 

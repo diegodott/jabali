@@ -24,17 +24,24 @@
 </head>
 <!--header nav bar-->
 <header class="header">
-    <nav class="nav">
-        <a href="index.html"><img src="img/logofooter.jpg" alt="logo"></a>
-        <div id="nav">
-            <ul>
-                <li><a href="index.html">Principal</a></li>
-                <li><a href="Integrantes.html">Integrantes</a></li>
-                <li><a href="Historia.html">Historia</a></li>
-                <li><a href="Shows.html">Shows</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logofooter.jpg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Principal</a>
+                        <a class="nav-link active" aria-current="page" href="Integrantes.html">Integrantes</a>
+                        <a class="nav-link active" aria-current="page" href="Historia.html">Historia</a>
+                        <a class="nav-link active" aria-current="page" href="Shows.html">Shows</a>
+                        <a class="nav-link active" aria-current="page" href="Contacto.html">Contacto</a>
+                    </li>
+            </div>
         </div>
     </nav>
 </header>
@@ -43,7 +50,7 @@
 <main>
     <section div class="section">
 
-        <h1>CONTACTO JABALÍ</h1>
+        <h1>CONTACTO JABALI</h1>
         <form>
             <div class="formulario">
                 <input type="radio" name="sexo">
@@ -100,20 +107,19 @@
     </section>
 </main>
 <!--fin seccion main contacto-->
-<footer>
-    <div id="footer"></div>
+<footer class="footer">
+    <div class="footer__addr">
+        <h1 class="footer__logo">JABALI</h1>
+
+        <h4>Contacto</h4>
+        <a class="footer__btn" href="mailto:jabaliband@gmail.com">E-Mail</a>
+        <h4>Nuestras Redes</h4>
+        <a class="footer__btn" href="https://www.instagram.com/jabali.hb">Instagram</a>
+        <a class="footer__btn" href="https://www.facebook.com/jabali.hb.sa">Facebook</a>
+    </div>
 
 
-    <h3>Nuestras redes:</h3>
-    <ul>
-
-
-        <li><a href="https://www.instagram.com/jabali.hb" target="_blank"></li>
-        <h4>Instagram</h4>
-        <li><a href="https://www.facebook.com/jabali.hb.sa" target="_blank"></li>
-        <h4>Facebook</h4>
-
-    </ul>
+    <h4>Jabalí 2022. Todos los derechos reservados.</h4>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
