@@ -1,0 +1,12 @@
+%btn {
+  width: 100px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 2px auto;
+  border-radius: 2px;
+  color: #ffffff;
+}
+.btn_alert {
+  @extend %btn;
+  background-color: rgb(235, 211, 0);
+}
