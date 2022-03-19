@@ -2,16 +2,15 @@
   display: inline-flex;
   justify-content: center;
   font-display: inline-flex;
-  font-size: 16px;
+  font-size: 10px;
   background-color: transparent;
-  padding-left: 50%;
+  padding-left: 10%;
   border-color: transparent;
 }
 
-header {
+.header {
   font-size: 1px;
-  display: inline-flex;
-  display: inline-block;
+
   background-color: transparent;
 }
 
@@ -20,12 +19,13 @@ header {
   font-weight: bolder;
   font-size: 1px;
   text-align: center;
-  color: transparent;
 }
 .container-fluid {
-  color: rgb(235, 211, 0) !important;
+  background-color: transparent !important;
 }
-/*no responde container fluid para cambio de color*/
+.nav-link {
+  color: rgb(235, 211, 0);
+}
 
 body {
   border-color: rgb(235, 211, 0);
