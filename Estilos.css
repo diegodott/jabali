@@ -309,13 +309,13 @@ img {
   width: 100%;
   max-width: 1600px;
   height: px;
-  display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
   margin: auto;
   background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
 }
-.container .card {
+.card {
   width: 330px;
   height: 500px;
   border-radius: 20px;
@@ -615,7 +615,7 @@ h5 {
     max-width: 1600px;
     height: px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
     justify-content: center;
     margin: auto;
     background-color: transparent;
@@ -816,7 +816,7 @@ h5 {
     max-width: 1600px;
     height: px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
     justify-content: center;
     margin: auto;
     background-color: transparent;
